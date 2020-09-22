@@ -1,0 +1,17 @@
+{
+  "type": "Slice",
+  "fieldset": "Rich Text",
+  "description": "A rich text section",
+  "icon": "text_fields",
+  "non-repeat": {
+    "text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading2, heading3, strong, em, hyperlink, embed, list-item, o-list-item",
+        "label": "Text",
+        "placeholder": "Post text..."
+      }
+    }
+  },
+  "repeat": {}
+}

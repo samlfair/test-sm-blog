@@ -1,0 +1,17 @@
+{
+  "type": "Slice",
+  "fieldset": "Pull Quote",
+  "description": "A quote section",
+  "icon": "format_quote",
+  "non-repeat": {
+    "quote": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Quote",
+        "placeholder": "Post Quote..."
+      }
+    }
+  },
+  "repeat": {}
+}
